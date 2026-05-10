@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Montserrat, sans-serif;
+}
+body{
+
+}
+.subject-header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    background-color: rgb(69, 91, 218);
+    padding: 35px 2px;
+    position: relative;
+}
+.subject-header-title{
+    font-size: 50px;
+
+}
+.Back{
+    position:absolute;
+    top: 5px;
+    left:5px;
+    z-index: 1;
+    padding: 8px 15px;
+    background-color: lightskyblue;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor:pointer;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+.Back:hover{
+    background-color: rgb(98, 187, 222);
+    opacity: 0.9;
+}
+.Back:active{
+    opacity:0.7;
+}

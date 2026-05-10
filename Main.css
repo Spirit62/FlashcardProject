@@ -17,7 +17,7 @@
 }
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: var(--primary-bg);
   padding: 10px;
   transition: var(--transition-speed);
@@ -60,10 +60,13 @@ body {
   align-items: center;
   transition: background-color 0.3s, color 0.3s, opacity 0.3s;
   text-decoration: none;
+  
+  
 }
 .subject-card{
         background-color: var(--accent-color);
         box-shadow: var(--card-shadow);
+        height:180px;
 }
 
 
